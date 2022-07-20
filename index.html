@@ -184,6 +184,11 @@
                 <td>*</td>
                 <td>Selects all elements</td>
             </tr>
+            <tr>
+                <td>::before</td>
+                <td>p::before</td>
+                <td>It will insert something before content of <em><strong>EACH</strong></em> &lt;p&gt; element</td>
+            </tr>
         </tbody>
     </table>
     </div>
@@ -246,25 +251,28 @@
         </thead>
         <tbody>
             <tr>
+                <td>:link</td>
+                <td>Matches when a link has not been visited</td>
+                <td>:link > :visited > :hover > :active</td>
+            </tr>
+            <tr>
+                <td>:visited</td>
+                <td>Matches when a link has been visited</td>
+                <td>FYI: the visited and un-visited links on a navbar will be the same</td>
+            </tr>
+            <tr>
                 <td>:hover</td>
                 <td>Matches when a user is pointing their mouse over it</td>
-                <td>Used in navigation bars and content links. Will not be activated by keyboard</td>
+                <td>Used in navigation bars and content links. Will not be activated by keyboard. <span id="hover"><em>:hover rule comes before the :active rule!</em></span></td>
             </tr>
             <tr>
                 <td>:active</td>
                 <td>Matches when a link has been clicked on</td>
                 <td>Just an FYI: the :hover and :active interactions may be different and it will only be visible once you click on the link</td>
             </tr>
-            <tr>
-                <td>:visited</td>
-                <td>Matches when a link has been visited</td>
-                <td>FYI: the visited and un-visited links on a navbar will be the same.</td>
-            </tr>
-
         </tbody>
     </table>
 </div>
-
 <p> <a href="#top">Back to Top</a></p>
 </body>
 </html>

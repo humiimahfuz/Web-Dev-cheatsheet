@@ -62,3 +62,9 @@ span ul {
 td.span {
     background-color: peachpuff;
 }
+
+td span#hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+}
